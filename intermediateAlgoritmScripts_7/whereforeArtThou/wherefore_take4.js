@@ -7,7 +7,7 @@ function meetsReq(collection, source) {
       newArr.push(collection[i]);
     }
   }
-  console.log(newArr);
+  return newArr;
 }
 
 meetsReq([{ "apple": 2, "bat": 2 }, { "apple": 1 }, { "apple": 1, "bat": 2, "cookie": 2 }], 
